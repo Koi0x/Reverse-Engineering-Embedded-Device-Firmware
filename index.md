@@ -15,6 +15,13 @@ Let's move on to the primary process now. Let's go ahead and walk the file using
 
 ![image](https://user-images.githubusercontent.com/95584654/151874435-b8436ba8-631f-4a6c-b2f1-71a2d11402fc.png)
 
+### Extracting Filesystem
+
+We are now moving on to extracting the filesystem from the bin file. Once again, we can use binwalk with the tac option -Me to extract it. This option will recursively scan for extracted files and then extract them to a separate directory. Give it a bit of time, and you should start to see all of the files being extracted from the cpio archive in this case and or whatever you are working with. 
+
+![image](https://user-images.githubusercontent.com/95584654/151876328-ebd9c1d1-d18d-4822-a355-d7bd6974c1f0.png)
+
+
 
 ```markdown
 Syntax highlighted code block
