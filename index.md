@@ -11,7 +11,7 @@ Firstly, we need to gather basic information before anything else, so we have a 
 
 This next step is optional, but you can also run the file command against it to see if you can pull down any information. In the case of this firmware, we do not get anything. The following steps will be using the tool binwalk to gather more information regarding the file. When working with firmware, it's always good practice to check the file's entropy as well. You can do this by using binwalk with the tac -E option. 
 
-Let's move on to the primary process now. Let's go ahead and walk the file using binwalk by running the command "binwalk firmware.bin". You can also see by doing this; we are also returned with OpenWrt information. So given the information that we have, we can extract the file system by also using binwalk. Note: Doing will not always be this easy; however, this write-up focuses on the fundamentals.
+Let's move on to the primary process now. Let's go ahead and walk the file using binwalk by running the command "binwalk firmware.bin". You can also see by doing this; we are also returned with OpenWrt information. So given the information that we have, we can extract the file system by also using binwalk. Note: Doing this will not always be this easy; however, this write-up focuses on the fundamentals.
 
 ![image](https://user-images.githubusercontent.com/95584654/151874435-b8436ba8-631f-4a6c-b2f1-71a2d11402fc.png)
 
