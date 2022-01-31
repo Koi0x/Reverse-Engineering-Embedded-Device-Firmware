@@ -21,32 +21,11 @@ We are now moving on to extracting the filesystem from the bin file. Once again,
 
 ![image](https://user-images.githubusercontent.com/95584654/151876328-ebd9c1d1-d18d-4822-a355-d7bd6974c1f0.png)
 
+You can now see that we have fully extracted the underlying file system of the embedded device. You can now view source code, binary files, scripts that make the device work. This marks the end of the write-up.
+
+![image](https://user-images.githubusercontent.com/95584654/151876724-c3930214-7e22-4655-9ca3-226f1f043736.png)
 
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Koi0x/Reverse-Engineering-Embedded-Device-Firmware/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
