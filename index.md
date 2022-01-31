@@ -1,13 +1,14 @@
 ## Reverse Engineering Embedded Device Firmware - koi0x
 
 
-You can use the [editor on GitHub](https://github.com/Koi0x/Reverse-Engineering-Embedded-Device-Firmware/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+This write-up will focus on the process of reverse engineering an embedded device's binary firmware file that uses OpenWrt. A few notes to begin, as always, I am going to keep this write-up short and to the point. I will also not discuss which device or manufacturer this device comes from or any related info out of privacy respect. This write-up is purely for educational purposes only. Let's get started.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Basic Reconnaissance 
 
-### Markdown
+Firstly, we need to gather basic information before anything else, so we have a base to work with. We have our bin (Renamed from the original name) in our working directory. Let's go ahead and run the strings command against the file to see if we can get any interesting strings returned. You can see that there was a mention of OpenWrt Linux-3.10.14 just by running the strings command against it. That is vital information for us. I blurred out the other string references as they mentioned the product. 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+![image](https://user-images.githubusercontent.com/95584654/151872853-398a9151-61d5-4e09-a936-26e907b3d129.png)
+
 
 ```markdown
 Syntax highlighted code block
