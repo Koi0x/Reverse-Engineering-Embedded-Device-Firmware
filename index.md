@@ -21,7 +21,7 @@ We are now moving on to extracting the filesystem from the bin file. Once again,
 
 ![image](https://user-images.githubusercontent.com/95584654/151876328-ebd9c1d1-d18d-4822-a355-d7bd6974c1f0.png)
 
-You can now see that we have fully extracted the underlying file system of the embedded device. You can now view source code, binary files, scripts that make the device work. This marks the end of the write-up.
+You can now see that we have fully extracted the underlying file system of the embedded device. You can now view source code, binary files, and scripts that make the device work. This marks the end of the write-up.
 
 ![image](https://user-images.githubusercontent.com/95584654/151876724-c3930214-7e22-4655-9ca3-226f1f043736.png)
 
