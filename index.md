@@ -25,6 +25,9 @@ You can now see that we have fully extracted the underlying file system of the e
 
 ![image](https://user-images.githubusercontent.com/95584654/151876724-c3930214-7e22-4655-9ca3-226f1f043736.png)
 
+### Closing Notes
+
+Again, this is a very basic fundamental write-up on the topic of reverse engineering firmware. There is a lot more to it, and I plan to create more write-up's as time goes on and I learn more. It can be enjoyable to reverse these kinds of things to get a better understanding of how they work, but it also opens up the ability to be able to conduct ethical vulnerability research on these devices. I hope you were able to learn something. Thanks for reading. 
 
 
 
